@@ -1,20 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Check out my article on [Firebase Authentication with Next.js](https://medium.com/your-medium-article-link) to learn how I integrated Firebase authentication into my Next.js app.
 
 # Firebase authentication
 
@@ -39,3 +23,20 @@ Create the Reusable LoginSignup.tsx
 
 ## Step 6: Use the Component in a Page
 Use LoginSignup.tsx component in Login and Signup 
+
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
