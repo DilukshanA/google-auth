@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { signInWithGoogle, signInWithEmail, signUpWithEmail } from "../../lib/auth";
-import Button from "./ui/button";
 import { Button2 } from "./ui/Button2";
 
 interface LoginSignupProps {
