@@ -8,6 +8,9 @@ import {
   signOut,
 } from "firebase/auth";
 
+// Export auth to make it available in other files
+export { auth };
+
 // Google Sign-In
 export const signInWithGoogle = async () => {
   try {
