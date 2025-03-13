@@ -24,6 +24,9 @@ Create the Reusable LoginSignup.tsx
 ## Step 6: Use the Component in a Page
 Use LoginSignup.tsx component in Login and Signup 
 
+![Firebase Authentication](https://firebasestorage.googleapis.com/v0/b/viduna-image.appspot.com/o/images%2FScreenshot%202025-03-13%20143128%20copy.png?alt=media&token=41772575-fd34-4eb4-86b4-b4428cf50df4)
+
+
 
 ## Getting Started
 
