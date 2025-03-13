@@ -1,6 +1,6 @@
 # Firebase authentication Next js App
 
-Check out my article on <a href="https://medium.com/your-medium-article-link" target="_blank">Firebase Authentication with Next.js</a> to learn how I integrated Firebase authentication into my Next.js app.
+Check out my article on <a href="https://medium.com/@dadilukshan/firebase-authentication-in-a-next-js-web-application-5131b19a0b26" target="_blank">Firebase Authentication with Next.js</a> to learn how I integrated Firebase authentication into my Next.js app.
 
 ## Step 1: Set Up Firebase Project
 Create a new project and add a web app using firebase console
