@@ -5,7 +5,6 @@ import React, { useEffect, useState } from 'react'
 import { Button2 } from './ui/Button2'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import {auth, logout} from "../../lib/auth"
-import Image from "next/image";
 
 const Hero = () => {
     const [user, setUser] = useState<any>(null);
