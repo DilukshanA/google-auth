@@ -35,36 +35,42 @@ export default function LoginSignup({ type }: LoginSignupProps) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center h-screen w-100">
       <h2 className="text-2xl font-bold mb-4">{type === "login" ? "Login" : "Sign Up"}</h2>
+      <div className="flex flex-col w-full gap-2">
       <input
         type="email"
         placeholder="Email"
-        className="p-2 border rounded w-64 mb-2"
+        className="p-2 border w-full rounded mb-2"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
       <input
         type="password"
         placeholder="Password"
-        className="p-2 border rounded w-64 mb-2"
+        className="p-2 border w-full rounded mb-2"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-              <Button2
-                onClick={handleAuth}
-                variant="destructive"
-                className="h-9 bg-[#1175BC] hover:bg-[#0B2838] text-white flex items-center rounded-[14px]" 
-              >
-                {type === "login" ? "Sign In" : "Create Account"}
-              </Button2>
-              <Button2
-                onClick={handleGoogleSignIn}
-                variant="destructive"
-                className="h-9 bg-[#00AEEF] hover:bg-[#0B2838] text-white flex items-center rounded-[14px]" 
-              >
-                Continue with Google
-              </Button2>
+      </div>
+
+      <div className="flex flex-col w-full gap-2">
+      <Button2
+        onClick={handleAuth}
+        variant="destructive"
+        className=" bg-[#1175BC] hover:bg-[#0B2838] text-white flex items-center rounded-[14px]" 
+        >
+        {type === "login" ? "Sign In" : "Create Account"}
+        </Button2>
+        <Button2
+            onClick={handleGoogleSignIn}
+            variant="destructive"
+            className=" bg-[#00AEEF] hover:bg-[#0B2838] text-white flex items-center rounded-[14px]" 
+        >
+            Continue with Google
+        </Button2>
+      </div>
+
       <p className="mt-4">
         {type === "login" ? "Don't have an account?" : "Already have an account?"}{" "}
         <button onClick={() => router.push(type === "login" ? "/signup" : "/login")} className="text-blue-600 hover:underline">

@@ -1,5 +1,12 @@
 import LoginSignup from "@/components/LoginSignup";
+import React from 'react'
 
-export default function LoginPage() {
-  return <LoginSignup type="login" />;
+const page = () => {
+  return (
+    <div className="flex justify-center">
+        <LoginSignup type="login" />
+    </div>
+  )
 }
+
+export default page
